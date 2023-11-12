@@ -4,7 +4,7 @@ require("flatpickr/dist/themes/dark.css");
 import { Notify } from "notiflix/build/notiflix-notify-aio";
 const fp = flatpickr("#datetime-picker", options);
 
-const ref = {
+const refs = {
   btnTimerStart: document.querySelector("[data-start]"),
   timerFieldDays: document.querySelector("[data-days]"),
   timerFielHours: document.querySelector("[data-hours]"),
